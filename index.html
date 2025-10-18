@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Test Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Blood Test Analyzer</h1>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search Test...">
+      <div class="dropdown-wrapper">
+        <select id="testSelect" size="7">
+          <option value="">Select a Test</option>
+        </select>
+      </div>
+      <input type="number" id="resultInput" placeholder="Enter Result">
+      <button id="resetBtn">Remove All Tests</button>
+    </div>
+
+    <div id="resultsContainer" class="results"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
